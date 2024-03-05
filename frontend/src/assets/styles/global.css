@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    font-family: "Rubik", sans-serif;
+}
+
+.row {
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.sidebar-container {
+    width: 290px;
+    position: relative;
+    transition: width 0.3s ease-in-out;
+}
+
+.sidebar-header {
+    height: 85px;
+}
+
+.sidebar-hidden {
+    width: 85px;
+}
+
+.header-container {
+    height: 85px;
+}
+
+.hamburger-icon {
+    opacity: 0;
+    transition: all 0.1s ease-in-out;
+} 
+
+.icon-show {
+    opacity: 1;
+}
